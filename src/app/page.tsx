@@ -150,7 +150,7 @@ export default function Home() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-8 text-md-start">
-                            <h1 className="display-4 fw-bold">Hi, I'm Nikesh Jain 👋</h1>
+                            <h1 className="display-4 fw-bold">Hi, I&apos;m Nikesh Jain 👋</h1>
                             <h3 className="gradient-text">
                                 <ReactTyped
                                     strings={[
