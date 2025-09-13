@@ -166,12 +166,11 @@ export default function Home() {
                             </h3>
                             <p className="lead mt-3">I build scalable, secure, and user-friendly web applications.</p>
                              <div className="social-links mt-4">
-                                <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon"><FaGithub /></a>
-                                <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon"><FaLinkedin /></a>
+                                <a href="https://github.com/nikeshjain73" target="_blank" rel="noopener noreferrer" className="social-icon"><FaGithub /></a>
+                                <a href="https://www.linkedin.com/in/nikesh-jain" target="_blank" rel="noopener noreferrer" className="social-icon"><FaLinkedin /></a>
                             </div>
                         </div>
                         <div className="col-md-4 mt-4 mt-md-0">
-                            {/* === ADD YOUR PROFILE IMAGE HERE === */}
                             <Image src="/image/profile-nikesh.png" alt="Nikesh Jain" width={250} height={250} className="profile-img shadow" />
                         </div>
                     </div>
