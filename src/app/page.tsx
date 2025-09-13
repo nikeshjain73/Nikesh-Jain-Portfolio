@@ -180,7 +180,7 @@ export default function Home() {
             <section id="about" className="py-5">
                 <div className="container">
                     <h2 className="section-title">About Me</h2>
-                    <p>Hello! 👋 I'm <strong>Nikesh Jain</strong>, a passionate and motivated <strong>Full Stack Web Developer</strong> with hands-on experience in building and deploying real-world web applications using <strong>Laravel, Next.js, and the MERN stack</strong>.</p>
+                    <p>Hello! 👋 I&apos;m <strong>Nikesh Jain</strong>, a passionate and motivated <strong>Full Stack Web Developer</strong> with hands-on experience in building and deploying real-world web applications using <strong>Laravel, Next.js, and the MERN stack</strong>.</p>
                     <p>Over the past year, I’ve worked on <strong>ERP and SaaS-based systems</strong>, where I gained expertise in solving bugs, designing modules, integrating APIs, and leading development teams. I enjoy taking ownership of projects—from backend logic and database design to crafting clean, responsive UIs.</p>
                     <p>My technical toolkit includes <strong>JavaScript, PHP, Python, Java, MySQL, MongoDB, Git, GitHub</strong>, and I thrive on learning modern frameworks and tools to stay ahead in the fast-moving tech world.</p>
                 </div>
@@ -300,7 +300,7 @@ export default function Home() {
             <section id="contact" className="py-5 text-center">
                 <div className="container">
                     <h2 className="section-title">Get in Touch</h2>
-                    <p className="lead">I'm currently open to new opportunities and collaborations. Feel free to reach out!</p>
+                    <p className="lead">I&apos;m currently open to new opportunities and collaborations. Feel free to reach out!</p>
                     <div className="contact-links mt-4">
                         <a href="mailto:jnikesh050@gmail.com" className="btn btn-outline-light mx-2"><FaEnvelope className="me-2" />Email Me</a>
                         <a href="tel:+919725520081" className="btn btn-outline-light mx-2"><FaPhone className="me-2" />Call Me</a>
