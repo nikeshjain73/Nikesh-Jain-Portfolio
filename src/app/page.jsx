@@ -3,14 +3,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaJs, FaPython, FaJava, FaPhp, FaLaravel, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaLinkedin, FaBootstrap, FaDatabase, FaEnvelope, FaPhone } from "react-icons/fa";
 import { SiNextdotjs, SiMongodb, SiMysql, SiExpress } from "react-icons/si";
-import { ReactTyped } from "react-typed";
+// import { ReactTyped } from "react-typed";
 import CountUp from "react-countup";
-import { useState } from "react";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
+import { useState,useEffect } from "react";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import dynamic from "next/dynamic";
+const ReactTyped = dynamic(() => import("react-typed").then(mod => mod.ReactTyped), {
+  ssr: false,
+});
 export default function Home() {
-    const [selectedProject, setSelectedProject] = useState<any>(null);
+     useEffect(() => {
+    import("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
 
+
+    const [selectedProject, setSelectedProject] = useState(null);
     const projects = [
         {
             title: "DIGIRDP",
@@ -170,6 +177,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-md-4 mt-4 mt-md-0">
+                            {/*  eslint-disable-next-line @next/next/no-img-element */}
                             <img src="/image/profile-nikesh.png" alt="Nikesh Jain" width={250} height={250} className="profile-img shadow" />
                         </div>
                     </div>
