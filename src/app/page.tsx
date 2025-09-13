@@ -7,7 +7,6 @@ import { ReactTyped } from "react-typed";
 import CountUp from "react-countup";
 import { useState } from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Image from 'next/image';
 
 export default function Home() {
     const [selectedProject, setSelectedProject] = useState<any>(null);
@@ -171,7 +170,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-md-4 mt-4 mt-md-0">
-                            <Image src="/image/profile-nikesh.png" alt="Nikesh Jain" width={250} height={250} className="profile-img shadow" />
+                            <img src="/image/profile-nikesh.png" alt="Nikesh Jain" width={250} height={250} className="profile-img shadow" />
                         </div>
                     </div>
                 </div>
@@ -201,6 +200,7 @@ export default function Home() {
                                         <span className="badge skill-badge"><FaPython className="me-1" /> Python</span>
                                         <span className="badge skill-badge"><FaJava className="me-1" /> Java</span>
                                         <span className="badge skill-badge"><FaPhp className="me-1" /> PHP</span>
+                                        <span className="badge skill-badge"><FaNodeJs className="me-1" /> Node.js</span>
                                     </div>
                                 </div>
                             </div>
