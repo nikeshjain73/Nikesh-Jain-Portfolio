@@ -1,7 +1,7 @@
 "use client";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaJs, FaPython, FaJava, FaPhp, FaLaravel, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaLinkedin, FaBootstrap, FaDatabase, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaJs, FaPython, FaJava, FaPhp, FaLaravel, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaLinkedin, FaBootstrap, FaDatabase, FaEnvelope, FaPhone, FaDownload } from "react-icons/fa";
 import { SiNextdotjs, SiMongodb, SiMysql, SiExpress } from "react-icons/si";
 // import { ReactTyped } from "react-typed";
 import CountUp from "react-countup";
@@ -171,6 +171,18 @@ export default function Home() {
                                 />
                             </h3>
                             <p className="lead mt-3">I build scalable, secure, and user-friendly web applications.</p>
+                            <div className="d-flex align-items-center mt-4 flex-wrap">
+                                <a
+                                href="/pdf/Nikesh_Resume.pdf"
+                                download="Nikesh-Jain-Resume.pdf"
+                                className="btn btn-primary mb-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <FaDownload className="me-2" />
+                                Download Resume
+                                </a>
+                            </div>
                              <div className="social-links mt-4">
                                 <a href="https://github.com/nikeshjain73" target="_blank" rel="noopener noreferrer" className="social-icon"><FaGithub /></a>
                                 <a href="https://www.linkedin.com/in/nikesh-jain" target="_blank" rel="noopener noreferrer" className="social-icon"><FaLinkedin /></a>
